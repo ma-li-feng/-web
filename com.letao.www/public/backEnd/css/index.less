@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,body {
+  height: 100%;
+}
+a:hover,a:active,a:link,a:visited {
+  text-decoration: none;
+}
+aside {
+  //display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 180px;
+  height: 100%;
+  background: rgb(34,45,50);
+  .top {
+    height:50px;
+    background: rgb(54, 127, 169);
+    a {
+      color: #fff;
+      font-size:20px;
+      text-align: center;
+      line-height: 50px;
+      display: block;
+      font-weight: bold;
+    }
+  }
+  .user {
+    height: 107px;
+    line-height: 107px;
+    padding-left:20px;
+    img {
+      width:50px;
+      border-radius: 50%;
+    }
+    a {
+      color: #fff;;
+    }
+  }
+  .list {
+    li {
+      //height: 40px;
+      line-height: 40px;
+      padding-left:30px;
+      a {
+        color: rgb(170, 170, 170);
+      }
+    }
+    li.slign {
+      div {
+        display: none;
+      }
+      a {
+        display: block;
+      }
+    }
+    li.active {
+      background: rgb(29, 31, 33);
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+.index_right {
+  margin-left: 180px;
+}
+.index_click {
+  //transition: all 1s;
+  margin-left: 0;
+}
+
+nav {
+
+  background: rgb(60, 141, 188);
+  height: 50px;
+  a {
+   display: inline-block;
+    color: #fff;
+  }
+  .glyphicon {
+    line-height: 50px;
+  }
+
+  a:first-child {
+    float: left;
+    padding-left: 10px;
+  }
+  .glyphicon-log-in {
+    float: right;
+    padding-right:10px;
+  }
+  .tan_neirong {
+    color: red;
+  }
+}
+.main {
+
+  //padding-left:;
+  padding:0 10px;
+  .tubiao {
+    height:400px;
+  }
+  .zhu {
+   float: left;
+    width: 45%;
+    height: 400px;
+  }
+  .bing {
+    float: right;
+    width: 45%;
+    height: 400px;
+  }
+}

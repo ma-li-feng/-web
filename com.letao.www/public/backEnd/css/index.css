@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+a:hover,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+aside {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 180px;
+  height: 100%;
+  background: #222d32;
+}
+aside .top {
+  height: 50px;
+  background: #367fa9;
+}
+aside .top a {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+  font-weight: bold;
+}
+aside .user {
+  height: 107px;
+  line-height: 107px;
+  padding-left: 20px;
+}
+aside .user img {
+  width: 50px;
+  border-radius: 50%;
+}
+aside .user a {
+  color: #fff;
+}
+aside .list li {
+  line-height: 40px;
+  padding-left: 30px;
+}
+aside .list li a {
+  color: #aaaaaa;
+}
+aside .list li.slign div {
+  display: none;
+}
+aside .list li.slign a {
+  display: block;
+}
+aside .list li.active {
+  background: #1d1f21;
+}
+aside .list li.active a {
+  color: #fff;
+}
+.index_right {
+  margin-left: 180px;
+}
+.index_click {
+  margin-left: 0;
+}
+nav {
+  background: #3c8dbc;
+  height: 50px;
+}
+nav a {
+  display: inline-block;
+  color: #fff;
+}
+nav .glyphicon {
+  line-height: 50px;
+}
+nav a:first-child {
+  float: left;
+  padding-left: 10px;
+}
+nav .glyphicon-log-in {
+  float: right;
+  padding-right: 10px;
+}
+nav .tan_neirong {
+  color: red;
+}
+.main {
+  padding: 0 10px;
+}
+.main .tubiao {
+  height: 400px;
+}
+.main .zhu {
+  float: left;
+  width: 45%;
+  height: 400px;
+}
+.main .bing {
+  float: right;
+  width: 45%;
+  height: 400px;
+}
