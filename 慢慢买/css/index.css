@@ -1,0 +1,155 @@
+body {
+  background-color: #f5f5f5;
+}
+#header {
+  height: 50px;
+  background-color: #ff841d;
+  padding: 10px;
+}
+#header .logo img {
+  height: 25px;
+}
+#header .app {
+  float: right;
+}
+#header .app img {
+  height: 34px;
+}
+#search {
+  height: 50px;
+  padding: 10px;
+  background-color: #fff;
+}
+#search form {
+  padding-right: 70px;
+  position: relative;
+}
+#search form input[type="search"] {
+  width: 100%;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 15px;
+  border: 0;
+  background-color: #f5f5f5;
+}
+#search form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 65px;
+  border-radius: 15px;
+  border: 0;
+  color: #fff;
+  background-color: #ff841d;
+}
+#menu {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #fff;
+}
+#menu .row div {
+  margin-top: 10px;
+}
+#menu .row div a img {
+  height: 50px;
+  width: 50px;
+}
+#menu .row div a p {
+  font-size: 12px;
+}
+#menu .row div:nth-last-child(-n+4) {
+  display: none;
+}
+#recommend .recommend_title {
+  height: 35px;
+  line-height: 35px;
+  background-color: #ff841d;
+  padding: 0 10px;
+}
+#recommend .recommend_title span {
+  color: #fff;
+  font-size: 14px;
+}
+#recommend .recommend_title img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 7px;
+}
+#recommend .recommend_product .media {
+  padding: 10px;
+  margin-top: 10px;
+}
+#recommend .recommend_product .media .media-left a {
+  display: block;
+}
+#recommend .recommend_product .media .media-left a img {
+  width: 100px;
+  height: 100px;
+}
+#recommend .recommend_product .media .media-body .media-heading {
+  font-size: 16px;
+  min-height: 56px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+#recommend .recommend_product .media .media-body .media-heading span {
+  color: #ff0000;
+}
+#recommend .recommend_product .media .media-body .other {
+  color: #ccc;
+  font-size: 12px;
+}
+#recommend .recommend_product .media .media-body .other .other_talk {
+  float: right;
+}
+#recommend .recommend_more {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+#footer .recommend_title {
+  height: 35px;
+  line-height: 35px;
+  background-color: #ff841d;
+  padding: 0 10px;
+}
+#footer .recommend_title span {
+  color: #fff;
+  font-size: 14px;
+}
+#footer .recommend_title img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 7px;
+}
+#footer .login_box {
+  height: 34px;
+  line-height: 34px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#footer .login_box div {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  float: left;
+  text-align: center;
+}
+#footer .login_box .gotop {
+  width: 40%;
+}
+#footer .info {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: #ff0000;
+}

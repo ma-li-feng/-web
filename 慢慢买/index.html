@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>慢慢买项目</title>
+    <!-- 第三方包-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 首页样式 -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- less文件 -->
+    <script src="lib/less/less.js"></script>
+</head>
+
+<body>
+    <!-- 头部 B -->
+    <header id="header">
+        <a href="#" class="logo">
+            <img src="images/header_logo.png" alt="">
+        </a>
+        <a href="#" class="app">
+            <img src="images/header_app.png" alt="">
+        </a>
+    </header>
+    <!-- 头部 E -->
+    <!-- 搜索 B -->
+    <section id="search">
+        <form action="#">
+            <input type="search" placeholder="macbook">
+            <input type="submit" value="go">
+        </form>
+    </section>
+    <!-- 搜索 E -->
+    <!-- 菜单 B -->
+    <section id="menu">
+        <div class="row">
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="#">
+                    <img src="images/ic_search.png" alt="">
+                    <p>比价搜索</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- 菜单 E -->
+    <!-- 推荐 B -->
+    <section id="recommend">
+        <div class="recommend_title">
+            <span>更多优惠信息</span>
+            <img src="http://www.zuyushop.com/wap/images/more.png" alt="">
+        </div>
+        <div class="recommend_product">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://cacheimg.manmanbuy.com/r_img/cacheimg.aspx?width=600&imgurl=http://a.manmanbuy.com:8013/cuxiaoPic/201610/201610001412282758.jpg"
+                            alt="...">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">移动端凑单品：海天 鲜味 生抽 1.28L
+                        <span>10.9元</span>
+                    </h4>
+                    <div class="other">
+                        <span class="other_shop">京东商城 | 10-25 14:10</span>
+                        <span class="other_talk">1</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="recommend_more">
+            <a href="#">更多优惠信息</a>
+        </div>
+    </section>
+    <!-- 推荐 E -->
+    <!-- 底部 B -->
+    <footer id="footer">
+        <div class="recommend_title">
+            <span>更多优惠信息</span>
+            <img src="http://www.zuyushop.com/wap/images/more.png" alt="">
+        </div>
+        <div class="login_box">
+            <div class="login">登录</div>
+            <div class="register">注册</div>
+            <div class="gotop">
+                <img src="http://www.zuyushop.com/wap/images/top.jpg" alt=""> 返回顶部
+            </div>
+        </div>
+        <div class="info">
+            <span>手机信息</span>
+            <span>手机信息</span>
+            <span>手机信息</span>
+        </div>
+    </footer>
+    <!-- 底部 E -->
+
+    <script type="text/template" id="menuTpl">
+        {{each result as value index}} 
+        <div class="col-xs-3">
+                <a href="{{value.titlehref}}">
+                    {{#value.img}}
+                    <p>{{value.name}}</p>
+                </a>
+            </div>
+
+       {{/each}} 
+       
+    </script>
+
+
+    <script type="text/template" id="getRecommendStyle">
+        {{each result as value index}} 
+    
+        <div class="recommend_product">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            {{#value.productImgSm}}
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{value.productName}}
+                            <span>{{value.productPinkage}}</span>
+                        </h4>
+                        <div class="other">
+                            <span class="other_shop">{{value.productFrom}}</span>
+                            <span class="other_talk">{{value.productComCount}}</span>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+    {{/each}}
+    </script>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/url.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
